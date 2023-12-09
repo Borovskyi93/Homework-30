@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(120, 168, 219, 0.891);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.square {
+    background-color: rgba(219, 254, 78, 0.689);
+    border-radius: 2px;
+    position: relative;
+    transition: 0.5s;
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
